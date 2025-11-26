@@ -27,3 +27,7 @@ class TodoInDB(TodoBase):
     updatet_at:datetime
     class Config:
         from_attributes=True
+
+class TodoResponse(TodoInDB):
+    pass
+
